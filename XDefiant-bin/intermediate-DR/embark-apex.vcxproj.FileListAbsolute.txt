@@ -1,0 +1,3 @@
+C:\Users\User\Documents\back\BACKUP_07_10\Documents\0_Selfmade_Projects\shit - Kopie - Cop44y\XDefiant-bin\intermediate-DR\embark-apex.vcxproj.MdMergeInputs.cache
+C:\Users\User\Documents\back\BACKUP_07_10\Documents\0_Selfmade_Projects\shit - Kopie - Cop44y\XDefiant-bin\intermediate-DR\embark-apex.vcxproj.cppwinrt_plat.cache
+C:\Users\User\Documents\back\BACKUP_07_10\Documents\0_Selfmade_Projects\shit - Kopie - Cop44y\XDefiant-bin\intermediate-DR\embark-apex.vcxproj.cppwinrt_comp.cache

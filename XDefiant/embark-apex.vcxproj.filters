@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="core\entity\entity.cpp" />
+    <ClCompile Include="dependencies\framework\framework.cpp" />
+    <ClCompile Include="resources\ipc\ipc.cpp" />
+    <ClCompile Include="dependencies\communication\edk.cpp" />
+    <ClCompile Include="core\interface\interface.cpp" />
+    <ClCompile Include="entrypoint.cpp" />
+    <ClCompile Include="core\engine\engine.cpp" />
+    <ClCompile Include="core\render\render.cpp" />
+    <ClCompile Include="core\sdk\utilities\utilities.cpp" />
+    <ClCompile Include="resources\imgui\imgui.cpp" />
+    <ClCompile Include="resources\imgui\imgui_demo.cpp" />
+    <ClCompile Include="resources\imgui\imgui_draw.cpp" />
+    <ClCompile Include="resources\imgui\imgui_impl_dx11.cpp" />
+    <ClCompile Include="resources\imgui\imgui_impl_win32.cpp" />
+    <ClCompile Include="resources\imgui\imgui_tables.cpp" />
+    <ClCompile Include="resources\imgui\imgui_widgets.cpp" />
+    <ClCompile Include="resources\misc\Timer.cpp" />
+    <ClCompile Include="core\aimbot\aimbot.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="core\entity\entity.hpp" />
+    <ClInclude Include="core\sdk\sdk.hpp" />
+    <ClInclude Include="dependencies\communication\scanner\scanner.hpp" />
+    <ClInclude Include="dependencies\framework\framework.hpp" />
+    <ClInclude Include="resources\ipc\ipc.hpp" />
+    <ClInclude Include="dependencies\communication\edk.hpp" />
+    <ClInclude Include="dependencies\communication\ia32\ia32.hpp" />
+    <ClInclude Include="core\interface\interface.hpp" />
+    <ClInclude Include="impl\Draw.hpp" />
+    <ClInclude Include="core\engine\engine.hpp" />
+    <ClInclude Include="core\render\render.hpp" />
+    <ClInclude Include="core\includes.hpp" />
+    <ClInclude Include="core\imports.hpp" />
+    <ClInclude Include="impl\Overlay.hpp" />
+    <ClInclude Include="core\sdk\utilities\utilities.hpp" />
+    <ClInclude Include="core\sdk\math\vector.hpp" />
+    <ClInclude Include="core\hash.hpp" />
+    <ClInclude Include="resources\imgui\imconfig.h" />
+    <ClInclude Include="resources\imgui\imgui.h" />
+    <ClInclude Include="resources\imgui\imgui_impl_dx11.h" />
+    <ClInclude Include="resources\imgui\imgui_impl_win32.h" />
+    <ClInclude Include="resources\imgui\imgui_internal.h" />
+    <ClInclude Include="resources\imgui\imstb_rectpack.h" />
+    <ClInclude Include="resources\imgui\imstb_textedit.h" />
+    <ClInclude Include="resources\imgui\imstb_truetype.h" />
+    <ClInclude Include="resources\user.hpp" />
+    <ClInclude Include="resources\offsets.h" />
+    <ClInclude Include="resources\misc\Timer.h" />
+    <ClInclude Include="resources\misc\skcrypt.hpp" />
+    <ClInclude Include="core\aimbot\aimbot.hpp" />
+    <ClInclude Include="resources\debug\debug.hpp" />
+    <ClInclude Include="resources\debug\termcolor.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="dependencies\kernel\vortex.xaml" />
+    <Page Include="dependencies\vortex.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="imgui.ini" />
+  </ItemGroup>
+</Project>
